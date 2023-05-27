@@ -1,0 +1,38 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#change{
+    margin-left: 28%;
+    width: 350px;
+    height: 150px;
+    /* display: flex;
+    flex-direction: row;
+    column-gap: 10px; */
+    background-color: antiquewhite;
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 2rem;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+#change p{
+    font-size: 25px;
+}
+#change button{
+    height: 20px;
+    margin-top: 10%;
+    margin-left: 10px;
+    border-radius: 2rem;
+    border-color: azure;
+   
+    background-color:aqua ;
+}
+
+#btnholder{
+    position: absolute;
+    float: right;
+    /* border: 2px solid red; */
+      display: flex;
+    flex-direction: row;
+    column-gap: 20px; 
+}
